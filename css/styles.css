@@ -59,25 +59,34 @@ nav {
 
 /***********************************Main Section*/
 .main-section {
-  padding: 5% 15% 20% 15%;
+  padding: 10%;
   text-align: center;
   font-size: 30px;
 }
+.main-section h1 {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
 .products {
   background-image: url("../images/curve.png");
-  max-height: 50px;
+  max-width: 1250px;
   background-size: cover;
   background-position: center top;
-  padding: 20%;
+  padding: 10% 20%;
+  display: flex;
+  justify-content: center;
+}
+.product-wrapper {
+  max-width: 800px;
   display: flex;
   justify-content: center;
 }
 .product {
   padding: var(--space);
-  margin-top: -450px;
-  width: 40%;
+  margin-top: -300px;
+  width: 25%;
   font-size: var(--normal);
-
 }
 .content {
   padding: 15px;
