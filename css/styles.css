@@ -77,15 +77,11 @@ nav {
   display: flex;
   justify-content: center;
 }
-.product-wrapper {
-  max-width: 800px;
-  display: flex;
-  justify-content: center;
-}
 .product {
   padding: var(--space);
   margin-top: -300px;
   width: 25%;
+  
   font-size: var(--normal);
 }
 .content {
