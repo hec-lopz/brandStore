@@ -7,7 +7,7 @@
   --black-color: #313337;
   --general-font: 'Open Sans', sans-serif;
   /* Tipografía */
-  --normal: 14px;
+  --normal: 12px;
   /* Espaciado */
   --space: 10px;
   /* Box Shadow */
@@ -25,6 +25,9 @@ html, body, figure{
 a {
   color: inherit;
   text-decoration: none;
+}
+h3 {
+  font-size: 17px;
 }
 ul {
   list-style: none;
