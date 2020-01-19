@@ -33,9 +33,6 @@
     flex-direction: column;
     justify-content: center;
 }
-.product-description h3{
-    font-size: 17px;
-}
 .product-description p{
     font-size: 12px;
 }
@@ -48,18 +45,4 @@
 .product-image-container img {
     width: 100%;
 }
-@media screen and (max-width: 900px) {
-    .product-item-1, .product-item-2 {
-        display: inherit;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .product-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
 
-    }
-
-}

@@ -8,8 +8,11 @@
   --general-font: 'Open Sans', sans-serif;
   /* Tipografía */
   --normal: 12px;
+  --titulo: 30px;
+  --subtitle: 17px;
   /* Espaciado */
   --space: 10px;
+  --img-size: 250px;
   /* Box Shadow */
   --box: 0 0 2px 1px #e6e5e9;
 
@@ -22,12 +25,15 @@ html, body, figure{
   padding: 0;
   font-family: var(--general-font);
 }
+p {
+  font-size: var(--normal);
+}
 a {
   color: inherit;
   text-decoration: none;
 }
 h3 {
-  font-size: 17px;
+  font-size: var(--subtitle);
 }
 ul {
   list-style: none;
@@ -64,7 +70,7 @@ nav {
 .main-section {
   padding: 10%;
   text-align: center;
-  font-size: 30px;
+  font-size: var(--title);
 }
 .main-section h1 {
   margin: 0 auto;
@@ -73,17 +79,19 @@ nav {
 
 .products {
   background-image: url("../images/curve.png");
-  max-width: 1250px;
+  width: 100%;
   background-size: cover;
   background-position: center top;
-  padding: 10% 20%;
+  padding: 12% 20%;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
 }
 .product {
   padding: var(--space);
-  margin-top: -300px;
-  width: 25%;
+  margin-top: -30%;
+  width: 300px;
   
   font-size: var(--normal);
 }
@@ -99,7 +107,7 @@ nav {
   background-color: var(--green-color);
   padding: var(--space);
   width: 100%;
-  font-size: 17px;
+  font-size: var(--subtitle);
   color: var(--white-color);
   border-style: none;
   border-radius: 2px;
@@ -166,6 +174,40 @@ nav {
 .image-container {
   width: 239px;
 }
+
+/************************************** Sale Form */
+.sale-container {
+  max-width: 1000px;
+  height: 89.5vh;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+} 
+.sale-form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 50px;
+}
+.data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: var(--box);
+  max-width: 450px;
+  padding: 15px;
+}
+.data-container label {
+  font-size: var(--normal);
+}
+
+.data {
+  height: 35px;
+  font-size: var(--normal);
+}
+
 
 
 /************************************** footer */
