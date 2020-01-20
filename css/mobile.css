@@ -12,11 +12,29 @@
 
     }
 
+    .sale-container {
+        align-content: center;
+        justify-content: center;
+        height: 89.6vh;
+    }
+    .sale-form {
+        display: initial;
+    }
+    .content {
+        margin-bottom: 20px;
+    }
+    .fail-image {
+        width: 25%;
+    }
+
+
 }
 @media screen and (max-width: 600px) {
     .main-section{
         padding: 4%;
-        font-size: 1.5em;
+        font-size: 1em;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
     .products {
         display: inherit;
@@ -40,4 +58,13 @@
     .description-box, .mention-box {
         margin: 0 auto  ;
     }
+
+    
+    .success-image {
+        width:50%;
+    }
+    .fail-image {
+        width: 50%;
+    }
+    
 }
